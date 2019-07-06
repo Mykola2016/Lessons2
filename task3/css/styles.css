@@ -1,0 +1,122 @@
+
+#wrapper { 
+    display: flex;
+    justify-content:center;  
+}
+.bigbox  {
+    border: 1px solid black;
+    display: flex;    
+    width: 1040px;
+    height: 750px;
+    flex-direction: column; 
+    
+}
+.bbox1{
+    
+    background:#383a2d;
+    width: 1040px;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items:center;
+}
+.bbox2{
+    margin: 2px;
+    width: 1040px;
+    height: 700px;
+    display: flex;
+    flex-direction: row; 
+    
+}
+ 
+a { 
+    margin: 3px;
+    text-decoration: none;
+    color: white; 
+}
+h2 {
+    color: red;
+}
+.box1{
+    
+    flex: 2;
+    display: flex;
+    flex-direction:column;
+    
+}
+
+.box2{
+    
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: flex-end;
+    flex: 1;
+    padding-left: 60px;
+}
+.bx1{
+    justify-content: flex-start;
+    display: flex;
+    flex: 1;
+
+}
+.bx2{
+    display: flex;
+     
+    padding: 40px;    
+    flex: 1;
+  
+
+}
+
+.item2 {
+   padding: 0px 10px 0px 5px;
+}
+
+}
+.item4{
+
+    display: flex;
+    flex-direction: column;
+     
+    padding: 0px 20px 0px 0px;
+    }
+
+span{
+    font-weight:bold;
+}
+.img1 { 
+   height: 270px;
+   width: 210px;
+   padding: 0px 10px 10px 50px;
+}
+
+
+#btn1{
+    background: red;
+    width: 116px;
+    height: 38px;
+    font-weight: bold;
+    color: white; 
+}
+#btn2{
+    border: 2px solid red;
+    color: red;
+    width: 116px;
+    height: 38px;
+    font-weight: bold;
+    background: white;
+}
+.logo{
+    padding: 0px 30px 0px 20px;
+    width: 30px;
+    height: 30px;
+}
+.box2 h3{
+    margin: 0px ;
+}
+.content {
+    color:  red;
+    
+}

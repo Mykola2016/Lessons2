@@ -1,0 +1,68 @@
+
+#wrapper { 
+    display: flex;
+    justify-content:center;  
+}
+.bigbox  {
+    border: 1px solid black;
+    display: flex;    
+    width: 1186px;
+    height: 1590px;
+    flex-direction: row; 
+    
+}
+
+ .bbox1{
+    flex:2;  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 50px;
+    
+}
+
+.bbox2{
+      
+    flex:1;   
+    display: flex;
+    flex-direction: column; 
+    padding: 25px; 
+}
+
+.box1{
+    display: flex;
+    
+    
+    
+}
+
+.box2{        
+    display: flex;  
+    flex-direction: column;   
+    
+}
+h3{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.bbox1 h4 {
+    color: darkgrey;
+}
+.item1{
+     margin: 35px;    
+    
+}
+hr{    
+    color:darkgrey;
+}
+.content{
+    color:yellow;
+    
+}
+span {
+    color: red;
+}
+h2{
+    color: red;
+}
